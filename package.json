@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "description": "Mininal frontend starter",
   "scripts": {
-    "start": "beefy main.coffee --live -- -t coffeeify --extension='.coffee' & npm run open",
-    "open": "open -a ~/Applications/Google\\ Chrome.app 'http://127.0.0.1:9966'"
+    "start": "beefy main.coffee --live --open -- -t coffeeify --extension='.coffee'"
   },
   "author": "sugarsin",
   "license": "MIT"
