@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Mininal frontend starter",
   "scripts": {
-    "start": "beefy main.coffee --live --open -- -t coffeeify -t cssify --extension='.coffee' --extension='.css'"
+    "start": "beefy main.coffee --live --open -- -t coffeeify -t cssify --extension='.coffee' --extension='.css'",
+    "build": "browserify -t coffeeify -t cssify --extension='.coffee' --extension='.css' ./main.coffee -o ./public/bundle.js"
   },
   "author": "sugarsin",
   "license": "MIT"
