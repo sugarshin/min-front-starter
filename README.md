@@ -1,4 +1,4 @@
-# min-frontend-starter
+# min-front-starter
 
 private minimal frontend starter
 
@@ -6,7 +6,7 @@ private minimal frontend starter
 
 ```shell
 mkdir project-name && cd $_
-git clone --depth 1 git@github.com:sugarshin/min-frontend-starter.git .
+git clone --depth 1 git@github.com:sugarshin/min-front-starter.git .
 sh init.sh
 ```
 
