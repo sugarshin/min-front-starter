@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Mininal frontend starter",
   "scripts": {
-    "start": "beefy main.coffee --live --open -- -t coffeeify --extension='.coffee'"
+    "start": "beefy main.coffee --live --open -- -t coffeeify -t cssify --extension='.coffee' --extension='.css'"
   },
   "author": "sugarsin",
   "license": "MIT"

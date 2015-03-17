@@ -1,4 +1,5 @@
 #!/usr/bin/sh
 
-npm i -D beefy browserify coffeeify
-rm -rf .git
+npm i -D cssify beefy browserify coffeeify
+mkdir css && echo '@charset "utf-8";' > css/index.css
+rm -rf .git init.sh
