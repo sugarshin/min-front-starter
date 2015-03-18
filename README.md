@@ -2,7 +2,7 @@
 
 private minimal frontend starter
 
-## Usage
+## Getting started
 
 ```shell
 mkdir project-name && cd $_
@@ -15,6 +15,14 @@ scripts
 ```shell
 npm start
 ```
+
+use
+
+* beefy
+* browserify
+* coffeeify
+* cssify
+* virtual-dom
 
 ## License
 
